@@ -44,7 +44,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 /*---***--- Code by Zen ---***---*/
 
-//selectors
+//Task 2 - selectors
 
 /*1*/const imgLog = document.getElementById('logo-img');
 
@@ -52,10 +52,23 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 /*3*/const imgMid = document.getElementById('middle-img');
 
-//img updates
+//Task 2 - img updates
 
 /*1*/imgLog.setAttribute('src', 'img/logo.png');
 
 /*2*/imgCta.setAttribute('src', 'img/header-img.png');
 
 /*3*/imgMid.setAttribute('src', 'img/mid-page-accent.jpg');
+
+//Task 4 - selectors
+
+//selects all a tags into an array
+const navAnchors = document.querySelectorAll('a');
+
+//update nav anchor names
+navAnchors[1].textContent = 'Services'
+navAnchors[2].textContent = 'Product'
+navAnchors[3].textContent = 'Vision'
+navAnchors[4].textContent = 'Features'
+navAnchors[4].textContent = 'About'
+navAnchors[5].textContent = 'Contact'
