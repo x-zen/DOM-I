@@ -78,3 +78,7 @@ navAnchors[5].textContent = 'Contact';
 const headText = document.querySelector('h1');
 //update h1 textCo
 headText.textContent = 'DOM IS AWESOME';
+
+
+const btn = document.querySelector('button');
+btn.textContent = "Get Started";
