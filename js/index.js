@@ -89,3 +89,18 @@ txtCont[1].textContent = 'about';
 txtCont[2].textContent = 'Services';
 txtCont[3].textContent = 'Product';
 txtCont[4].textContent = 'Vision';
+
+const pCont = document.querySelectorAll('.text-content p');
+pCont[0].textContent = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+pCont[1].textContent = 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+pCont[2].textContent = 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
+pCont[3].textContent = 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
+pCont[4].textContent = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+
+const contact = document.querySelector('.contact h4');
+contact.textContent = "contact";
+
+const contP = document.querySelectorAll('.contact p');
+contP[0].textContent = '123 Way 456 Street Somewhere, USA';
+contP[1].textContent = '1 (800) 888-8888';
+contP[2].textContent = 'sales@greatidea.io';
