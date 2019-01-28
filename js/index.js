@@ -67,10 +67,10 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 //selects all a tags into an array
 const navAnchors = document.querySelectorAll('a');
 //update nav anchor names
-navAnchors[1].textContent = 'Services';
-navAnchors[2].textContent = 'Product';
-navAnchors[3].textContent = 'Vision';
-navAnchors[4].textContent = 'Features';
+navAnchors[0].textContent = 'Services';
+navAnchors[1].textContent = 'Product';
+navAnchors[2].textContent = 'Vision';
+navAnchors[3].textContent = 'Features';
 navAnchors[4].textContent = 'About';
 navAnchors[5].textContent = 'Contact';
 
@@ -82,3 +82,10 @@ headText.textContent = 'DOM IS AWESOME';
 
 const btn = document.querySelector('button');
 btn.textContent = "Get Started";
+
+const txtCont = document.querySelectorAll('.text-content h4');
+txtCont[0].textContent = 'Features';
+txtCont[1].textContent = 'about';
+txtCont[2].textContent = 'Services';
+txtCont[3].textContent = 'Product';
+txtCont[4].textContent = 'Vision';
