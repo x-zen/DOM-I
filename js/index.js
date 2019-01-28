@@ -101,9 +101,16 @@ const contact = document.querySelector('.contact h4');
 contact.textContent = "contact";
 
 const contP = document.querySelectorAll('.contact p');
-contP[0].textContent = '123 Way 456 Street Somewhere, USA';
+contP[0].textContent = '123 Way 456 Street<br>Somewhere, USA';
 contP[1].textContent = '1 (800) 888-8888';
 contP[2].textContent = 'sales@greatidea.io';
 
 const foot = document.querySelector('footer p');
 foot.textContent = 'Copyright Great Idea! 2018'
+
+//Task 4
+
+const main = document.querySelectorAll('a');
+for (var i = 0; i < main.length; i++) {
+   main[i].style.color = 'green';
+}
