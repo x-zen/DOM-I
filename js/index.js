@@ -60,15 +60,21 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 /*3*/imgMid.setAttribute('src', 'img/mid-page-accent.jpg');
 
-//Task 4 - selectors
+
+/*---***--- Task 4 ---***---*/
+
 
 //selects all a tags into an array
 const navAnchors = document.querySelectorAll('a');
-
 //update nav anchor names
-navAnchors[1].textContent = 'Services'
-navAnchors[2].textContent = 'Product'
-navAnchors[3].textContent = 'Vision'
-navAnchors[4].textContent = 'Features'
-navAnchors[4].textContent = 'About'
-navAnchors[5].textContent = 'Contact'
+navAnchors[1].textContent = 'Services';
+navAnchors[2].textContent = 'Product';
+navAnchors[3].textContent = 'Vision';
+navAnchors[4].textContent = 'Features';
+navAnchors[4].textContent = 'About';
+navAnchors[5].textContent = 'Contact';
+
+//selects header 1 in cta-img
+const headText = document.querySelector('h1');
+//update h1 textCo
+headText.textContent = 'DOM IS AWESOME';
