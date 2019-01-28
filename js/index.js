@@ -114,3 +114,12 @@ const main = document.querySelectorAll('a');
 for (var i = 0; i < main.length; i++) {
    main[i].style.color = 'green';
 }
+
+const zen = document.createElement("A");
+const alsoZen = document.createElement("A");
+var textnode = document.createTextNode("<Z3N>");
+var textnode2 = document.createTextNode("<Z3N>");
+zen.appendChild(textnode);
+alsoZen.appendChild(textnode2);
+document.querySelector('nav').appendChild(zen);
+document.querySelector('nav').prepend(alsoZen);
