@@ -54,4 +54,8 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 //img updates
 
-/*1*///logo.setAttribute('src', #)
+/*1*/imgLog.setAttribute('src', 'img/logo.png');
+
+/*2*/imgCta.setAttribute('src', 'img/header-img.png');
+
+/*3*/imgMid.setAttribute('src', 'img/mid-page-accent.jpg');
